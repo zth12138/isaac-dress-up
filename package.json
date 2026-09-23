@@ -1,0 +1,62 @@
+{
+  "name": "isaac-dress-up",
+  "version": "1.0.0",
+  "description": "A portable desktop Isaac dress-up companion.",
+  "main": "main.js",
+  "author": "zth12138",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "dev": "node scripts/start.js",
+    "build:icon": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-app-icon.ps1",
+    "build:items": "node scripts/build-item-catalog.js",
+    "dist": "npm run build:icon && electron-builder --win zip"
+  },
+  "devDependencies": {
+    "electron": "^32.2.0",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.zth12138.isaacdressup",
+    "productName": "Isaac Dress Up",
+    "asar": true,
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "styles.css",
+      "package.json"
+    ],
+    "extraFiles": [
+      {
+        "from": "assets/isaac",
+        "to": "assets/isaac"
+      },
+      {
+        "from": "README.md",
+        "to": "README.md"
+      },
+      {
+        "from": "docs",
+        "to": "docs"
+      }
+    ],
+    "win": {
+      "icon": "build/app-icon.ico",
+      "target": [
+        {
+          "target": "zip",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "Isaac-Dress-Up-${version}-win.${ext}"
+    }
+  }
+}

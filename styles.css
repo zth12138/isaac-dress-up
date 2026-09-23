@@ -1,0 +1,569 @@
+* { box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+body { user-select: none; }
+
+.desktop-pet {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+#character-canvas {
+  position: absolute;
+  left: 434px;
+  top: 14px;
+  width: 240px;
+  height: 264px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  pointer-events: none;
+}
+
+.drag-handle {
+  position: absolute;
+  inset: 0;
+  cursor: grab;
+  -webkit-app-region: no-drag;
+  z-index: 1;
+}
+
+.drag-handle:active { cursor: grabbing; }
+
+.character-switcher {
+  position: absolute;
+  z-index: 2;
+  left: 420px;
+  width: 268px;
+  top: 274px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+}
+
+.desktop-pet:hover .character-switcher,
+.character-switcher:hover {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.character-switch-button {
+  --character-menu-sprite: url("isaac-asset://local/gfx/ui/main%20menu/charactermenu-4x-nearest.png");
+  width: 64px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: transparent;
+  cursor: pointer;
+  image-rendering: pixelated;
+}
+
+.character-switch-button::before {
+  display: block;
+  width: 64px;
+  height: 32px;
+  content: "";
+  background-image: var(--character-menu-sprite);
+  background-repeat: no-repeat;
+  background-size: 1024px 2048px;
+  image-rendering: pixelated;
+}
+
+.character-switch-button[data-character-step="-1"]::before {
+  background-position: 0 -544px;
+}
+
+.character-switch-button[data-character-step="1"]::before {
+  background-position: -64px -544px;
+}
+
+.character-switch-button:hover {
+  filter: brightness(1.2);
+}
+
+.character-switch-button:active {
+  transform: translateY(2px);
+}
+
+.hair-menu-toggle {
+  position: absolute;
+  z-index: 4;
+  top: 8px;
+  left: 426px;
+  width: 80px;
+  height: 80px;
+  padding: 8px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+  transition: opacity 120ms ease;
+}
+
+.hair-menu-toggle[hidden] {
+  display: none;
+}
+
+.hair-menu-icon {
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+  background-size: 512px 64px;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+.desktop-pet:hover .hair-menu-toggle,
+.hair-menu-toggle:focus-visible,
+.hair-menu-toggle[aria-expanded="true"] {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hair-menu-toggle:hover .hair-menu-icon {
+  filter: brightness(1.18);
+}
+
+.hair-menu-toggle[aria-expanded="true"] .hair-menu-icon {
+  filter: drop-shadow(0 0 2px #81b765);
+}
+
+.item-menu-toggle {
+  position: absolute;
+  z-index: 4;
+  top: 20px;
+  left: 626px;
+  width: 56px;
+  height: 56px;
+  padding: 4px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+  transition: opacity 120ms ease;
+}
+
+.item-menu-toggle img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+.desktop-pet:hover .item-menu-toggle,
+.item-menu-toggle:focus-visible,
+.item-menu-toggle[aria-expanded="true"] {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.item-menu-toggle:hover img {
+  filter: brightness(1.18);
+}
+
+.item-menu-toggle[aria-expanded="true"] img {
+  filter: drop-shadow(0 0 2px #81b765);
+}
+
+.character-variant-toggle {
+  position: absolute;
+  z-index: 4;
+  top: 8px;
+  left: 530px;
+  width: 48px;
+  height: 48px;
+  padding: 4px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+  transition: opacity 120ms ease;
+}
+
+.character-variant-toggle[hidden] {
+  display: none;
+}
+
+.character-variant-toggle img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+.desktop-pet:hover .character-variant-toggle,
+.character-variant-toggle:focus-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.character-variant-toggle:hover img {
+  filter: brightness(1.2);
+}
+
+.character-variant-toggle[aria-pressed="true"] img {
+  filter: drop-shadow(0 0 2px #81b765);
+}
+
+.character-variant-toggle:active {
+  transform: translateY(2px);
+}
+
+.appearance-slots {
+  position: absolute;
+  z-index: 4;
+  top: 80px;
+  left: 641px;
+  width: 26px;
+  display: grid;
+  gap: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+}
+
+.desktop-pet:hover .appearance-slots,
+.appearance-slots:focus-within {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.appearance-slot-button {
+  width: 26px;
+  height: 24px;
+  padding: 0;
+  border: 3px solid #332c2b;
+  border-radius: 0;
+  outline: 0;
+  background: #e8dcda;
+  color: #51413f;
+  box-shadow: inset 0 0 0 1px #f7efec;
+  font: 700 13px/18px "Courier New", monospace;
+  cursor: pointer;
+}
+
+.appearance-slot-button:hover {
+  background: #fff7ee;
+  transform: translateY(-1px);
+}
+
+.appearance-slot-button:active {
+  transform: translateY(1px);
+}
+
+.appearance-slot-button.is-filled {
+  border-color: #315b32;
+  background: #8fc274;
+  color: #193b21;
+  box-shadow: inset 0 0 0 1px #c9e7b2;
+}
+
+.appearance-slot-button.is-saved {
+  animation: slot-saved 360ms steps(2, end);
+}
+
+.appearance-slot-button.is-error {
+  border-color: #762d2d;
+  background: #d77a70;
+}
+
+.appearance-slot-button:disabled {
+  cursor: wait;
+}
+
+@keyframes slot-saved {
+  50% {
+    filter: brightness(1.45);
+    transform: scale(1.08);
+  }
+}
+
+.hair-panel {
+  position: absolute;
+  z-index: 5;
+  left: 14px;
+  top: 8px;
+  width: 400px;
+  height: 284px;
+  padding: 12px 14px;
+  border: 4px solid #cbb7b6;
+  border-radius: 3px;
+  outline: 2px solid #413737;
+  background: #eadfde;
+  box-shadow: inset 0 0 0 3px #f5ebea, -5px 6px 0 rgba(57, 44, 43, 0.28);
+}
+
+.hair-panel[hidden] {
+  display: none;
+}
+
+.hair-results {
+  display: grid;
+  grid-template-columns: repeat(3, 104px);
+  grid-auto-rows: 80px;
+  gap: 8px 14px;
+  justify-content: center;
+  align-content: start;
+  width: 100%;
+  height: 252px;
+  padding: 2px 8px 8px 2px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-color: #51413f #d8c7c4;
+  scrollbar-width: thin;
+}
+
+.hair-results::-webkit-scrollbar {
+  width: 10px;
+}
+
+.hair-results::-webkit-scrollbar-track {
+  border: 2px solid #443735;
+  background: #d8c7c4;
+}
+
+.hair-results::-webkit-scrollbar-thumb {
+  border: 2px solid #443735;
+  background: #75615e;
+}
+
+.hair-button {
+  position: relative;
+  width: 104px;
+  height: 80px;
+  padding: 2px;
+  border: 2px solid #3c3230;
+  border-radius: 0;
+  background: #f3e9e2;
+  box-shadow: inset 0 0 0 1px #d3c2bb;
+  cursor: pointer;
+}
+
+.hair-preview {
+  display: block;
+  width: 96px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 768px 96px;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+.hair-button::after {
+  position: absolute;
+  right: 2px;
+  bottom: 0;
+  content: attr(data-hair);
+  color: #62514d;
+  font: 700 8px/9px "Courier New", monospace;
+  pointer-events: none;
+}
+
+.hair-button:hover {
+  border-color: #6c5650;
+  background: #fff7ee;
+}
+
+.hair-button[aria-pressed="true"] {
+  border-color: #315b32;
+  background: #8fc274;
+  box-shadow: inset 0 0 0 1px #b9dc9c;
+}
+
+.hair-button[aria-pressed="true"]::after {
+  color: #193b21;
+}
+
+.hair-button:active {
+  transform: translateY(2px);
+}
+
+.hair-results[aria-busy="true"] .hair-button {
+  pointer-events: none;
+}
+
+.item-panel {
+  position: absolute;
+  z-index: 5;
+  left: 694px;
+  top: 8px;
+  width: 400px;
+  height: 284px;
+  padding: 16px 18px;
+  border: 4px solid #cbb7b6;
+  border-radius: 3px;
+  outline: 2px solid #413737;
+  background: #eadfde;
+  box-shadow: inset 0 0 0 3px #f5ebea, 5px 6px 0 rgba(57, 44, 43, 0.28);
+}
+
+.item-panel[hidden] {
+  display: none;
+}
+
+.item-toolbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 40px 40px;
+  gap: 7px;
+  height: 36px;
+}
+
+.item-search,
+.item-filter-button {
+  height: 34px;
+  border: 3px solid #332c2b;
+  border-radius: 2px;
+  outline: 0;
+  background: #f7f0ec;
+  color: #332c2b;
+  box-shadow: inset 0 0 0 1px #c8b8b1;
+}
+
+.item-search {
+  min-width: 0;
+  padding: 2px 9px;
+  font: 700 14px/24px "Courier New", monospace;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.item-search:focus {
+  border-color: #594a45;
+  background: #fffaf5;
+}
+
+.item-search::-webkit-search-cancel-button {
+  display: none;
+}
+
+.item-filter-button {
+  padding: 0;
+  font: 700 16px/28px "Microsoft YaHei", sans-serif;
+  cursor: pointer;
+}
+
+.item-filter-button:hover {
+  background: #fffaf5;
+  transform: translateY(-1px);
+}
+
+.item-filter-button:active {
+  transform: translateY(1px);
+}
+
+.item-results {
+  display: grid;
+  grid-template-columns: repeat(4, 64px);
+  grid-auto-rows: 64px;
+  gap: 10px 14px;
+  align-content: start;
+  height: 196px;
+  margin-top: 12px;
+  padding: 3px 14px 8px 3px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-color: #51413f #d8c7c4;
+  scrollbar-width: thin;
+}
+
+.item-results::-webkit-scrollbar {
+  width: 10px;
+}
+
+.item-results::-webkit-scrollbar-track {
+  border: 2px solid #443735;
+  background: #d8c7c4;
+}
+
+.item-results::-webkit-scrollbar-thumb {
+  border: 2px solid #443735;
+  background: #75615e;
+}
+
+.item-button {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  padding: 4px 4px 13px;
+  border: 3px solid #3c3230;
+  border-radius: 2px;
+  background: #f3e9e2;
+  box-shadow: inset 0 0 0 2px #d3c2bb;
+  cursor: pointer;
+}
+
+.item-button img {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 3px auto 0;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+.item-id {
+  position: absolute;
+  right: 4px;
+  bottom: 2px;
+  color: #62514d;
+  font: 700 9px/10px "Courier New", monospace;
+  pointer-events: none;
+}
+
+.item-button:hover {
+  border-color: #6c5650;
+  background: #fff7ee;
+}
+
+.item-button[aria-pressed="true"] {
+  border-color: #315b32;
+  background: #8fc274;
+  box-shadow: inset 0 0 0 2px #b9dc9c;
+}
+
+.item-button[aria-pressed="true"] .item-id {
+  color: #193b21;
+}
+
+.item-button:active {
+  transform: translateY(2px);
+}
+
+.item-results[aria-busy="true"] .item-button {
+  pointer-events: none;
+}
+
+.item-empty {
+  position: absolute;
+  inset: 112px 20px auto;
+  margin: 0;
+  color: #6c5955;
+  font: 700 13px/20px "Microsoft YaHei", sans-serif;
+  text-align: center;
+}

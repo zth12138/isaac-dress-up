@@ -1,0 +1,4420 @@
+{
+  "generatedFrom": "items.xml + costumes2.xml + gfx/characters/*.anm2",
+  "summary": {
+    "passiveCostumeCount": 359,
+    "supportedCount": 357,
+    "unsupportedCount": 2,
+    "supportedBreakdown": {
+      "head": 225,
+      "body": 91,
+      "mixed": 26,
+      "other": 14,
+      "special": 1,
+      "animatedOverlay": 9,
+      "flightGrant": 11,
+      "colorOverride": 26,
+      "characterAlternate": 222,
+      "characterSkinColorAlternate": 53,
+      "skinColorAlternate": 117
+    },
+    "characterAlternatesBySuffix": {
+      "apollyon": 80,
+      "bluebaby": 44,
+      "forgotten": 96,
+      "forgottensoul": 0,
+      "keeper": 193,
+      "lilith": 0,
+      "shadow": 150
+    },
+    "unsupportedByReason": {
+      "missing-item-definition": 2
+    }
+  },
+  "supported": [
+    {
+      "gameId": 1,
+      "name": "The Sad Onion",
+      "animation": "001_The Sad Onion.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 2,
+      "name": "The Inner Eye",
+      "animation": "002_The Inner Eye.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 3,
+      "name": "Spoon Bender",
+      "animation": "003_Spoon Bender.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head",
+        "head1",
+        "head3"
+      ]
+    },
+    {
+      "gameId": 4,
+      "name": "Crickets Head",
+      "animation": "004_Maxs Head.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 5,
+      "name": "My Reflection",
+      "animation": "005_My Reflection.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 6,
+      "name": "Number One",
+      "animation": "006_Number one.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 7,
+      "name": "Blood Of The Martyr",
+      "animation": "007_Blood of the Martyr.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 9,
+      "name": "Skatole",
+      "animation": "009_Skatole.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 13,
+      "name": "The Virus",
+      "animation": "013_The Virus.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 14,
+      "name": "Roid Rage",
+      "animation": "014_Roid Rage.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 15,
+      "name": "Heart",
+      "animation": "015_3.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 16,
+      "name": "Raw Liver",
+      "animation": "016_Raw Liver.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 17,
+      "name": "Skeleton Key",
+      "animation": "017_Skeleton Key.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 19,
+      "name": "Boom",
+      "animation": "019_Boom.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 20,
+      "name": "Transcendence",
+      "animation": "020_Transcendence.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body",
+        "body1",
+        "body0",
+        "top0"
+      ]
+    },
+    {
+      "gameId": 27,
+      "name": "Wooden Spoon",
+      "animation": "027_Wooden Spoon.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 28,
+      "name": "The Belt",
+      "animation": "028_The Belt.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 29,
+      "name": "Moms Underwear",
+      "animation": "029_Moms Underwear.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 30,
+      "name": "Moms Heels",
+      "animation": "030_Moms Heels.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 31,
+      "name": "Moms Lipstick",
+      "animation": "031_Moms Lipstick.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 32,
+      "name": "Wire Coat Hanger",
+      "animation": "032_Wire Coat hanger.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 40,
+      "name": "Kamikaze",
+      "animation": "040_Kamikaze.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body1"
+      ]
+    },
+    {
+      "gameId": 46,
+      "name": "Lucky Foot",
+      "animation": "046_Lucky Foot.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 48,
+      "name": "Cupids Arrow",
+      "animation": "048_Cupids arrow.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 50,
+      "name": "Steven",
+      "animation": "050_Steven.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 51,
+      "name": "Pentagram",
+      "animation": "051_Pentagram.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 52,
+      "name": "Dr Fetus",
+      "animation": "052_Dr Fetus.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 53,
+      "name": "Magneto",
+      "animation": "053_Magneto.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 55,
+      "name": "Moms Eye",
+      "animation": "055_Moms Eye.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 62,
+      "name": "Charm Of The Vampire",
+      "animation": "062_Charm of the Vampire.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 63,
+      "name": "The Battery",
+      "animation": "063_The Battery.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 64,
+      "name": "Steam Sale",
+      "animation": "064_Steam Sale.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 68,
+      "name": "Technology",
+      "animation": "068_Technology.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 69,
+      "name": "Chocolate Milk",
+      "animation": "069_Chocolate Milk.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 70,
+      "name": "Growth Hormones",
+      "animation": "070_Growth Hormones.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 72,
+      "name": "Rosary",
+      "animation": "072_Rosary.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body1"
+      ]
+    },
+    {
+      "gameId": 75,
+      "name": "PHD",
+      "animation": "075_PHD.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 76,
+      "name": "Xray Vision",
+      "animation": "076_Xray-Vision.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 79,
+      "name": "The Mark",
+      "animation": "079_The Mark.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 80,
+      "name": "The Pact",
+      "animation": "080_The Pact.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "head",
+        "body",
+        "head3"
+      ],
+      "skinColor": 1
+    },
+    {
+      "gameId": 82,
+      "name": "Lord Of The Pit",
+      "animation": "082_Lord of the Pit.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body",
+        "top0"
+      ],
+      "skinColor": 1
+    },
+    {
+      "gameId": 83,
+      "name": "The Nail",
+      "animation": "083_The Nail.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body",
+        "head"
+      ],
+      "skinColor": 1
+    },
+    {
+      "gameId": 87,
+      "name": "Lokis Horns",
+      "animation": "087_Lokis Horns.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 89,
+      "name": "Spiders Bite",
+      "animation": "089_Spider Bite.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 90,
+      "name": "Small Rock",
+      "animation": "090_The Small Rock.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 91,
+      "name": "Spelunker Hat",
+      "animation": "091_Spelunker Hat.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4",
+        "glow"
+      ]
+    },
+    {
+      "gameId": 92,
+      "name": "Super Bandage",
+      "animation": "092_Super Bandage.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 101,
+      "name": "The Halo",
+      "animation": "101_The Halo.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 103,
+      "name": "The Common Cold",
+      "animation": "103_The Common Cold.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ],
+      "skinColor": 4
+    },
+    {
+      "gameId": 104,
+      "name": "The Parasite",
+      "animation": "104_The Parasite.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 106,
+      "name": "Mr Mega",
+      "animation": "106_Mr Mega.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 108,
+      "name": "The Wafer",
+      "animation": "108_The Wafer.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "glow"
+      ]
+    },
+    {
+      "gameId": 109,
+      "name": "Moneyis Power",
+      "animation": "109_Money  Power.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 110,
+      "name": "Moms Contacts",
+      "animation": "110_Moms Contacts.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 115,
+      "name": "Ouija Board",
+      "animation": "115_Ouija Board.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ],
+      "skinColor": 0
+    },
+    {
+      "gameId": 116,
+      "name": "9 Volt",
+      "animation": "116_9 Volt.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 117,
+      "name": "Dead Bird",
+      "animation": "117_Dead Bird.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 118,
+      "name": "Brimstone",
+      "animation": "118_Brimstone.anm2",
+      "kind": "special",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "head",
+        "body"
+      ]
+    },
+    {
+      "gameId": 119,
+      "name": "Blood Bag",
+      "animation": "119_Blood Bag.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 122,
+      "name": "Whore OFBabylon",
+      "animation": "122_Whore of Babylon.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body",
+        "head",
+        "head3"
+      ],
+      "skinColor": 1
+    },
+    {
+      "gameId": 129,
+      "name": "Bucketof Lard",
+      "animation": "129_Bucket of Lard.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 130,
+      "name": "APony",
+      "animation": "130_Pony.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body",
+        "body0",
+        "top0"
+      ]
+    },
+    {
+      "gameId": 132,
+      "name": "ALump Of Coal",
+      "animation": "132_A Lump of Coal.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 134,
+      "name": "Guppys Tail",
+      "animation": "134_Guppys Tail.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 138,
+      "name": "Stigmata",
+      "animation": "138_Stigmata.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 139,
+      "name": "Moms Purse",
+      "animation": "139_Moms Purse.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body1"
+      ]
+    },
+    {
+      "gameId": 140,
+      "name": "Bobs Curse",
+      "animation": "140_Bobs Curse.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ],
+      "skinColor": 4
+    },
+    {
+      "gameId": 141,
+      "name": "Pageant Boy",
+      "animation": "141_Pageant Boy.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 142,
+      "name": "Scapular",
+      "animation": "142_Scapular.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "glow"
+      ]
+    },
+    {
+      "gameId": 143,
+      "name": "Speedball",
+      "animation": "143_Speed Ball.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 148,
+      "name": "Infestation",
+      "animation": "148_Infestation.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body",
+        "head"
+      ],
+      "skinColor": 4
+    },
+    {
+      "gameId": 149,
+      "name": "Ipecac",
+      "animation": "149_Ipecac.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ],
+      "skinColor": 4
+    },
+    {
+      "gameId": 150,
+      "name": "Tough Love",
+      "animation": "150_Tough love.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 151,
+      "name": "The Mulligan",
+      "animation": "151_The Mulligan.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 152,
+      "name": "Technology2",
+      "animation": "152_Technology 2.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 153,
+      "name": "Mutant Spider",
+      "animation": "153_Mutant Spider.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 154,
+      "name": "Chemical Peel",
+      "animation": "154_Chemical peel.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 156,
+      "name": "Habit",
+      "animation": "156_Habit.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 157,
+      "name": "Bloody Lust",
+      "animation": "157_Blood Lust.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 159,
+      "name": "Spirit Of The Night",
+      "animation": "159_Spirit of the night.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "head",
+        "body",
+        "top0"
+      ],
+      "skinColor": 1
+    },
+    {
+      "gameId": 161,
+      "name": "Ankh",
+      "animation": "161_Ankh.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body1"
+      ]
+    },
+    {
+      "gameId": 162,
+      "name": "Celtic Cross",
+      "animation": "162_Celtic cross.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "glow"
+      ]
+    },
+    {
+      "gameId": 165,
+      "name": "Cat ONine Tails",
+      "animation": "165_Cat-o-nine-tails.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 168,
+      "name": "Epic Fetus",
+      "animation": "168_Epic Fetus.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 169,
+      "name": "Polyphemus",
+      "animation": "169_Polyphemus.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 173,
+      "name": "Mitre",
+      "animation": "173_Mitre.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "glow"
+      ]
+    },
+    {
+      "gameId": 176,
+      "name": "Stem Cells",
+      "animation": "176_Stem cells.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 179,
+      "name": "Fate",
+      "animation": "179_Fate.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body",
+        "top0"
+      ]
+    },
+    {
+      "gameId": 181,
+      "name": "White Pony",
+      "animation": "181_White Pony.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body",
+        "body0",
+        "top0"
+      ]
+    },
+    {
+      "gameId": 182,
+      "name": "Sacred Heart",
+      "animation": "182_Sacred Heart.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 183,
+      "name": "Tooth Picks",
+      "animation": "183_Tooth Picks.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 184,
+      "name": "Holy Grail",
+      "animation": "184_Holy Grail.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body",
+        "top0",
+        "glow"
+      ]
+    },
+    {
+      "gameId": 185,
+      "name": "Dead Dove",
+      "animation": "185_Dead Dove.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body",
+        "head",
+        "top0"
+      ],
+      "skinColor": 0
+    },
+    {
+      "gameId": 189,
+      "name": "SMBSuper Fan",
+      "animation": "189_SMB Super Fan.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "head",
+        "body"
+      ],
+      "skinColor": 3
+    },
+    {
+      "gameId": 190,
+      "name": "Pyro",
+      "animation": "107_pyro.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 191,
+      "name": "3 Dollar Bill",
+      "animation": "191_3 Dollar bill.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 193,
+      "name": "Meat",
+      "animation": "193_MEAT.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 194,
+      "name": "Magic8 Ball",
+      "animation": "194_Magic 8 ball.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 195,
+      "name": "Moms Coin Purse",
+      "animation": "195_Moms Coin Purse.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 196,
+      "name": "Squeezy",
+      "animation": "196_Squeezy.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 197,
+      "name": "Jesus Juice",
+      "animation": "197_Jesus Juice.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 198,
+      "name": "Box",
+      "animation": "198_box.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 199,
+      "name": "momskey",
+      "animation": "199_Moms Key.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body1"
+      ]
+    },
+    {
+      "gameId": 200,
+      "name": "momseyeshadow",
+      "animation": "200_momseyeshadow.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 201,
+      "name": "ironbar",
+      "animation": "201_ironbar.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 202,
+      "name": "midastouch",
+      "animation": "202_midastouch.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 203,
+      "name": "humblingbundle",
+      "animation": "203_humblingbundle.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 204,
+      "name": "fannypack",
+      "animation": "204_fannypack.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 205,
+      "name": "sharpplug",
+      "animation": "205_sharpplug.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 208,
+      "name": "championbelt",
+      "animation": "208_championbelt.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 209,
+      "name": "buttbombs",
+      "animation": "209_buttbombs.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 210,
+      "name": "Gnawed Leaf",
+      "animation": "210_gnawedleaf.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 211,
+      "name": "spiderbaby",
+      "animation": "211_spiderbaby.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 212,
+      "name": "Guppys Collar",
+      "animation": "212_guppyscollar.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 213,
+      "name": "lostcontact",
+      "animation": "213_lostcontact.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 214,
+      "name": "anemic",
+      "animation": "214_anemic.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 215,
+      "name": "goathead",
+      "animation": "215_goathead.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 216,
+      "name": "Ceremonial Robes",
+      "animation": "216_ceremonialrobes.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body0",
+        "head4"
+      ]
+    },
+    {
+      "gameId": 217,
+      "name": "momswig",
+      "animation": "217_momswig.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 218,
+      "name": "placenta",
+      "animation": "218_placenta.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 219,
+      "name": "oldbandage",
+      "animation": "219_oldbandage.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 221,
+      "name": "rubbercement",
+      "animation": "221_rubbercement.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 222,
+      "name": "antigravity",
+      "animation": "222_antigravity.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "head",
+        "body"
+      ],
+      "skinColor": 2
+    },
+    {
+      "gameId": 223,
+      "name": "pyromaniac",
+      "animation": "223_pyromaniac.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 224,
+      "name": "cricketsbody",
+      "animation": "224_crickets body.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 225,
+      "name": "gimpy",
+      "animation": "225_gimpy.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 226,
+      "name": "blacklotus",
+      "animation": "226_blacklotus.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 227,
+      "name": "piggybank",
+      "animation": "227_piggybank.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 228,
+      "name": "momsperfume",
+      "animation": "228_moms perfume.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 229,
+      "name": "monstroslung",
+      "animation": "229_monstros lung.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 230,
+      "name": "abaddon",
+      "animation": "230_abaddon.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body",
+        "head"
+      ],
+      "skinColor": 1
+    },
+    {
+      "gameId": 231,
+      "name": "balloftar",
+      "animation": "231_balloftar.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body",
+        "head"
+      ],
+      "skinColor": 1
+    },
+    {
+      "gameId": 232,
+      "name": "stopwatch",
+      "animation": "232_stopwatch.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 233,
+      "name": "tinyplanet",
+      "animation": "233_tiny planet.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 234,
+      "name": "infestation2",
+      "animation": "234_infestation2.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 236,
+      "name": "ecoli",
+      "animation": "236_ecoli.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 237,
+      "name": "deathstouch",
+      "animation": "237_deathstouch.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ],
+      "skinColor": 0
+    },
+    {
+      "gameId": 240,
+      "name": "experimentaltreatment",
+      "animation": "240_experimentaltreatment.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 241,
+      "name": "contractfrombelow",
+      "animation": "241_contractfrombelow.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 242,
+      "name": "infamy",
+      "animation": "242_infamy.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 244,
+      "name": "techpointfive",
+      "animation": "244_tech05.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 245,
+      "name": "2020",
+      "animation": "245_2020.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 247,
+      "name": "bffs",
+      "animation": "247_bffs.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 248,
+      "name": "hivemind",
+      "animation": "248_hive mind.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body0",
+        "head4"
+      ]
+    },
+    {
+      "gameId": 249,
+      "name": "theresoptions",
+      "animation": "249_theresoptions.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 250,
+      "name": "bogobombs",
+      "animation": "250_bogobombs.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 251,
+      "name": "starterdeck",
+      "animation": "251_starterdeck.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 252,
+      "name": "littlebaggy",
+      "animation": "252_littlebaggy.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 253,
+      "name": "magicscab",
+      "animation": "253_magicscab.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 254,
+      "name": "bloodclot",
+      "animation": "254_bloodclot.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 255,
+      "name": "screw",
+      "animation": "255_screw.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 256,
+      "name": "hotbombs",
+      "animation": "256_hotbombs.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "glow"
+      ]
+    },
+    {
+      "gameId": 257,
+      "name": "firemind",
+      "animation": "257_firemind.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 258,
+      "name": "missingno",
+      "animation": "258_missingno.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "Main"
+      ]
+    },
+    {
+      "gameId": 259,
+      "name": "darkmatter",
+      "animation": "259_darkmatter.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 260,
+      "name": "blackcandle",
+      "animation": "260_blackcandle.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 261,
+      "name": "proptosis",
+      "animation": "261_proptosis.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 262,
+      "name": "missingpage2",
+      "animation": "262_missingpage2.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0",
+        "glow"
+      ]
+    },
+    {
+      "gameId": 299,
+      "name": "taurus",
+      "animation": "299_taurus.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 300,
+      "name": "aries",
+      "animation": "300_aries.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 301,
+      "name": "cancer",
+      "animation": "301_cancer.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 302,
+      "name": "leo",
+      "animation": "302_leo.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 303,
+      "name": "virgo",
+      "animation": "303_virgo.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 304,
+      "name": "libra",
+      "animation": "304_libra.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body",
+        "head"
+      ]
+    },
+    {
+      "gameId": 305,
+      "name": "scorpio",
+      "animation": "305_scorpio.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 306,
+      "name": "sagittarius",
+      "animation": "306_sagittarius.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 307,
+      "name": "capricorn",
+      "animation": "307_capricorn.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 308,
+      "name": "aquarius",
+      "animation": "308_aquarius.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 309,
+      "name": "pisces",
+      "animation": "309_pisces.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body",
+        "head1"
+      ]
+    },
+    {
+      "gameId": 310,
+      "name": "evesmascara",
+      "animation": "310_evesmascara.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 311,
+      "name": "judasshadow",
+      "animation": "311_judasshadow.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body",
+        "head"
+      ]
+    },
+    {
+      "gameId": 312,
+      "name": "maggysbow",
+      "animation": "312_maggysbow.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 313,
+      "name": "holymantle",
+      "animation": "313_holymantle.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body1",
+        "glow"
+      ]
+    },
+    {
+      "gameId": 314,
+      "name": "thunderthighs",
+      "animation": "314_thunderthighs.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 315,
+      "name": "strangeattractor",
+      "animation": "315_strangeattractor.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 316,
+      "name": "cursedeye",
+      "animation": "316_cursedeye.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 317,
+      "name": "mysteriousliquid",
+      "animation": "317_mysteriousliquid.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "glow",
+        "head"
+      ]
+    },
+    {
+      "gameId": 327,
+      "name": "thepolaroid",
+      "animation": "327_thepolaroid.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "glow"
+      ]
+    },
+    {
+      "gameId": 328,
+      "name": "thenegative",
+      "animation": "328_thenegative.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "glow"
+      ]
+    },
+    {
+      "gameId": 329,
+      "name": "theludovicotechnique",
+      "animation": "329_TheLudovicoTreatment.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 330,
+      "name": "soymilk",
+      "animation": "330_soymilk.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 331,
+      "name": "godhead",
+      "animation": "331_godhead.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "glow",
+        "head2"
+      ]
+    },
+    {
+      "gameId": 332,
+      "name": "lazarusrags",
+      "animation": "332_Lazarus Rags.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 333,
+      "name": "mind",
+      "animation": "333_Mind.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 334,
+      "name": "body",
+      "animation": "334_Body.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 335,
+      "name": "soul",
+      "animation": "335_Soul.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "glow"
+      ]
+    },
+    {
+      "gameId": 336,
+      "name": "deadonion",
+      "animation": "336_deadonion.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 337,
+      "name": "brokenwatch",
+      "animation": "337_Broken Stopwatch.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 339,
+      "name": "Safety Pin",
+      "animation": "339_safety pin.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 340,
+      "name": "Caffeine Pill",
+      "animation": "340_caffeine pill.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "head",
+        "body"
+      ]
+    },
+    {
+      "gameId": 341,
+      "name": "Torn Photo",
+      "animation": "341_torn photo.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head",
+        "head1"
+      ]
+    },
+    {
+      "gameId": 342,
+      "name": "Blue Cap",
+      "animation": "342_blue cap.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head",
+        "head4"
+      ]
+    },
+    {
+      "gameId": 343,
+      "name": "Latch Key",
+      "animation": "343_LatchKey.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 344,
+      "name": "Match Book",
+      "animation": "344_matchbook.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 345,
+      "name": "Synthoil",
+      "animation": "345_Synthoil.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 350,
+      "name": "Toxic Shock",
+      "animation": "350_ToxicShock.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "glow"
+      ]
+    },
+    {
+      "gameId": 353,
+      "name": "Bomber Boy",
+      "animation": "353_bomberboy.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 354,
+      "name": "Crack Jacks",
+      "animation": "354_crackerjacks.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 355,
+      "name": "Moms Pearls",
+      "animation": "355_momspearls.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 356,
+      "name": "Car Battery",
+      "animation": "356_carbattery.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 358,
+      "name": "The Wiz",
+      "animation": "358_TheWiz.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 359,
+      "name": "8 Inch Nails",
+      "animation": "359_8InchNail.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 366,
+      "name": "Scatter Bombs",
+      "animation": "366_scatterbombs.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 367,
+      "name": "Sticky Bombs",
+      "animation": "367_stickybombs.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 368,
+      "name": "Epiphora",
+      "animation": "368_Epiphora.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 369,
+      "name": "Continuum",
+      "animation": "369_continuum.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 370,
+      "name": "Mr Dolly",
+      "animation": "370_MrDolly.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 371,
+      "name": "Curse Of The Tower",
+      "animation": "371_CurseOfTheTower.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 373,
+      "name": "Dead Eye",
+      "animation": "373_Deadeye.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 374,
+      "name": "Holy Light",
+      "animation": "374_Holylight.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 375,
+      "name": "Host Hat",
+      "animation": "375_HostHat.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 377,
+      "name": "Bursting Sack",
+      "animation": "377_burstingsack.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 378,
+      "name": "Number Two",
+      "animation": "378_No2.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 379,
+      "name": "Pupula Duplex",
+      "animation": "379_pupuladuplex.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 380,
+      "name": "Pay To Play",
+      "animation": "380_PayToPlay.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 381,
+      "name": "Edens Blessing",
+      "animation": "381_EdensBlessing.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 391,
+      "name": "Betrayal",
+      "animation": "391_betrayal.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 392,
+      "name": "Zodiac",
+      "animation": "392_Zodiac.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 393,
+      "name": "Serpents Kiss",
+      "animation": "393_SerpentsKiss.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 394,
+      "name": "Marked",
+      "animation": "394_Marked.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 395,
+      "name": "Tech X",
+      "animation": "395_techx.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 397,
+      "name": "Tractor Beam",
+      "animation": "397_TractorBeam.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 398,
+      "name": "Gods Flesh",
+      "animation": "398_GodsFlesh.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 399,
+      "name": "Maw Of The Void",
+      "animation": "399_MawOfTheVoid.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "head",
+        "body"
+      ],
+      "skinColor": 1
+    },
+    {
+      "gameId": 402,
+      "name": "Chaos",
+      "animation": "402_Chaos.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 407,
+      "name": "Purity",
+      "animation": "407_Purity.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 408,
+      "name": "Athame",
+      "animation": "408_Athame.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body1"
+      ]
+    },
+    {
+      "gameId": 409,
+      "name": "Empty Vessel",
+      "animation": "409_EmptyVessel.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body1"
+      ]
+    },
+    {
+      "gameId": 410,
+      "name": "Evil Eye",
+      "animation": "410_EvilEye.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 411,
+      "name": "Lusty Blood",
+      "animation": "411_lustyblood.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 412,
+      "name": "Cambion Conception",
+      "animation": "412_cambionconception.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ],
+      "skinColor": 1
+    },
+    {
+      "gameId": 413,
+      "name": "Immaculate Conception",
+      "animation": "413_immaculateconception.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 414,
+      "name": "More Options",
+      "animation": "414_moreoptions.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 418,
+      "name": "Fruit Cake",
+      "animation": "418_FruitCake.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 420,
+      "name": "Black Powder",
+      "animation": "420_BlackPowder.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 424,
+      "name": "Sack Head",
+      "animation": "424_SackHead.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 425,
+      "name": "Night Light",
+      "animation": "425_NightLight.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body1"
+      ]
+    },
+    {
+      "gameId": 428,
+      "name": "PJs",
+      "animation": "428_PJs.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 429,
+      "name": "Head Of The Keeper",
+      "animation": "429_HeadOfTheKeeper.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 432,
+      "name": "Glitter Bombs",
+      "animation": "432_glitterbombs.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 438,
+      "name": "Binky",
+      "animation": "438_Binky.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 443,
+      "name": "Apple",
+      "animation": "443_Apple.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 444,
+      "name": "Lead Pencil",
+      "animation": "444_LeadPencil.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 445,
+      "name": "Dog Tooth",
+      "animation": "445_DogTooth.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 446,
+      "name": "Dead Tooth",
+      "animation": "446_DeadTooth.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 447,
+      "name": "Linger Bean",
+      "animation": "447_LingerBean.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 448,
+      "name": "Shard Of Glass",
+      "animation": "448_ShardOfGlass.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 449,
+      "name": "Metal Plate",
+      "animation": "449_MetalPlate.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 450,
+      "name": "Eye Of Greed",
+      "animation": "450_EyeOfGreed.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 451,
+      "name": "Tarot Cloth",
+      "animation": "451_TarotCloth.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 452,
+      "name": "Varicose Veins",
+      "animation": "452_VaricoseVeins.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body0",
+        "head1"
+      ]
+    },
+    {
+      "gameId": 453,
+      "name": "Compound Fracture",
+      "animation": "453_CompoundFracture.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 454,
+      "name": "Polydactyly",
+      "animation": "454_Polydactyly.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 455,
+      "name": "Dads Lost Coin",
+      "animation": "455_DadsLostCoin.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 457,
+      "name": "Conehead",
+      "animation": "457_Conehead.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 458,
+      "name": "Belly Button",
+      "animation": "458_BellyButton.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 459,
+      "name": "Sinus Infection",
+      "animation": "459_SinusInfection.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 460,
+      "name": "Glaucoma",
+      "animation": "460_Glaucoma.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 461,
+      "name": "Parasitoid",
+      "animation": "461_Parasitoid.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 462,
+      "name": "Eye Of Belial",
+      "animation": "462_EyeOfBelial.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 463,
+      "name": "Sulfuric Acid",
+      "animation": "463_SulphuricAcid.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 464,
+      "name": "Glyph Of Balance",
+      "animation": "464_GlyphOfBalance.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "glow"
+      ]
+    },
+    {
+      "gameId": 465,
+      "name": "Analog Stick",
+      "animation": "465_AnalogStick.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 466,
+      "name": "Contagion",
+      "animation": "466_Contagion.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 494,
+      "name": "jacobsladder",
+      "animation": "494_JacobsLadder.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head5"
+      ]
+    },
+    {
+      "gameId": 495,
+      "name": "ghostpepper",
+      "animation": "495_GhostPepper.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 496,
+      "name": "euthanasia",
+      "animation": "496_Euthanasia.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 497,
+      "name": "camoundies",
+      "animation": "497_CamoUndies.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 498,
+      "name": "duality",
+      "animation": "498_Duality.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "glow"
+      ]
+    },
+    {
+      "gameId": 499,
+      "name": "eucharist",
+      "animation": "499_Eucharist.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 501,
+      "name": "Greeds Gullet",
+      "animation": "501_GreedsGullet.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body1"
+      ]
+    },
+    {
+      "gameId": 502,
+      "name": "Large Zit",
+      "animation": "502_LargeZit.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 503,
+      "name": "Little Horn",
+      "animation": "503_LittleHorn.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 507,
+      "name": "Sharp Straw",
+      "animation": "507_SharpStraw.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 513,
+      "name": "Bozo",
+      "animation": "513_Bozo.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 514,
+      "name": "Broken Modem",
+      "animation": "514_Modem.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 517,
+      "name": "Fast Bombs",
+      "animation": "517_fastbombs.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 520,
+      "name": "Jumper Cable",
+      "animation": "520_JumperCable.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 524,
+      "name": "Technology Zero",
+      "animation": "524_TechnologyZero.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 525,
+      "name": "Leprosy",
+      "animation": "525_Leprosy.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 529,
+      "name": "Pop",
+      "animation": "529_Pop.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 530,
+      "name": "Deaths List",
+      "animation": "530_DeathsList.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 531,
+      "name": "Haemolacria",
+      "animation": "531_Haemolacria.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 532,
+      "name": "Lachryphagy",
+      "animation": "532_Lachryphagy.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 533,
+      "name": "Trisagion",
+      "animation": "533_Trisagion.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 534,
+      "name": "Schoolbag",
+      "animation": "534_Schoolbag.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 535,
+      "name": "Blanket",
+      "animation": "535_Blanket.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 540,
+      "name": "Flat Stone",
+      "animation": "540_FlatStone.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 541,
+      "name": "Marrow",
+      "animation": "541_Marrow.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 546,
+      "name": "Dads Ring",
+      "animation": "546_DadsRing.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 547,
+      "name": "Divorce Papers",
+      "animation": "547_DivorcePapers.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 549,
+      "name": "Brittle Bones",
+      "animation": "549_BrittleBones.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 553,
+      "name": "Mucormycosis",
+      "animation": "000x_Mucormycosis.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 554,
+      "name": "2 Spooky",
+      "animation": "001x_2Spooky.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "head",
+        "body"
+      ],
+      "skinColor": 3
+    },
+    {
+      "gameId": 558,
+      "name": "Eye Sore",
+      "animation": "005x_EyeSore.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 559,
+      "name": "120 Volt",
+      "animation": "006x_120Volt.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 560,
+      "name": "It Hurts",
+      "animation": "007x_ItHurts.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 561,
+      "name": "Almond Milk",
+      "animation": "008x_AlmondMilk.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 562,
+      "name": "Rock Bottom",
+      "animation": "009x_RockBottom.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 564,
+      "name": "Bar Of Soap",
+      "animation": "011x_Soap.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head",
+        "head4"
+      ]
+    },
+    {
+      "gameId": 570,
+      "name": "Playdoh Cookie",
+      "animation": "017x_PlaydohCookie.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 571,
+      "name": "Socks",
+      "animation": "018x_Socks.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 572,
+      "name": "Occult Eye",
+      "animation": "019x_OccultEye.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2",
+        "glow"
+      ]
+    },
+    {
+      "gameId": 573,
+      "name": "Immaculate Heart",
+      "animation": "020x_ImmaculateHeart.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body",
+        "glow"
+      ]
+    },
+    {
+      "gameId": 574,
+      "name": "Monstrance",
+      "animation": "021x_Monstrance.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "glow"
+      ]
+    },
+    {
+      "gameId": 576,
+      "name": "Dirty Mind",
+      "animation": "023x_DirtyMind.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 588,
+      "name": "Sol",
+      "animation": "035x_Sol.anm2",
+      "kind": "other",
+      "parts": [],
+      "layers": [
+        "glow"
+      ]
+    },
+    {
+      "gameId": 589,
+      "name": "Luna",
+      "animation": "036x_Luna.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ],
+      "skinColor": 0
+    },
+    {
+      "gameId": 590,
+      "name": "Mercurius",
+      "animation": "037x_Mercurius.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 591,
+      "name": "Venus",
+      "animation": "038x_Venus.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1",
+        "head",
+        "back"
+      ]
+    },
+    {
+      "gameId": 592,
+      "name": "Terra",
+      "animation": "039x_Terra.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "head",
+        "body"
+      ],
+      "skinColor": 5
+    },
+    {
+      "gameId": 593,
+      "name": "Mars",
+      "animation": "040x_Mars.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body",
+        "head"
+      ],
+      "skinColor": 3
+    },
+    {
+      "gameId": 594,
+      "name": "Jupiter",
+      "animation": "041x_Jupiter.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 596,
+      "name": "Uranus",
+      "animation": "043x_Uranus.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "head",
+        "body",
+        "head1"
+      ],
+      "skinColor": 0
+    },
+    {
+      "gameId": 597,
+      "name": "Neptunus",
+      "animation": "044x_Neptunus.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "head",
+        "body"
+      ],
+      "skinColor": 2
+    },
+    {
+      "gameId": 598,
+      "name": "Pluto",
+      "animation": "045x_Pluto.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "head",
+        "body"
+      ]
+    },
+    {
+      "gameId": 599,
+      "name": "Voodoo Head",
+      "animation": "046x_VoodooHead.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head4"
+      ]
+    },
+    {
+      "gameId": 600,
+      "name": "Eye Drops",
+      "animation": "047x_EyeDrops.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 601,
+      "name": "Act Of Contrition",
+      "animation": "048x_ActOfContrition.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0",
+        "glow"
+      ]
+    },
+    {
+      "gameId": 602,
+      "name": "Member Card",
+      "animation": "049x_MemberCard.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 603,
+      "name": "Battery Pack",
+      "animation": "050x_BatteryPack.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 606,
+      "name": "Oculus Rift",
+      "animation": "053x_OculusRift.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 614,
+      "name": "Blood Bombs",
+      "animation": "061x_BloodBombs.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 616,
+      "name": "Birds Eye",
+      "animation": "063x_BirdsEye.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 617,
+      "name": "Lodestone",
+      "animation": "064x_Lodestone.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 618,
+      "name": "Rotten Tomato",
+      "animation": "065x_RottenTomato.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head",
+        "head1"
+      ]
+    },
+    {
+      "gameId": 621,
+      "name": "Red Stew",
+      "animation": "068x_RedStew.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 632,
+      "name": "Evil Charm",
+      "animation": "079x_EvilCharm.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 633,
+      "name": "Dogma",
+      "animation": "179_Fate.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body",
+        "top0"
+      ]
+    },
+    {
+      "gameId": 637,
+      "name": "Knockout Drops",
+      "animation": "084x_Knockout.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 641,
+      "name": "Akeldama",
+      "animation": "088x_Akeldama.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 643,
+      "name": "Revelation",
+      "animation": "090x_Revelation.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "body",
+        "top0",
+        "head"
+      ]
+    },
+    {
+      "gameId": 644,
+      "name": "Consolation Prize",
+      "animation": "091x_ConsolationPrize.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 647,
+      "name": "Assault Battery",
+      "animation": "094x_AssaultBattery.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 654,
+      "name": "False Phd",
+      "animation": "101x_FalsePhd.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head",
+        "head2"
+      ]
+    },
+    {
+      "gameId": 657,
+      "name": "Vasculitis",
+      "animation": "104x_Vasculitis.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 658,
+      "name": "Giant Cell",
+      "animation": "105x_GiantCell.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 659,
+      "name": "Tropicamide",
+      "animation": "106x_Tropicamide.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 660,
+      "name": "Card Reading",
+      "animation": "660_CardReading.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 664,
+      "name": "Binge Eater",
+      "animation": "129_Bucket of Lard.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 665,
+      "name": "Guppys Eye",
+      "animation": "665_GuppysEye.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 669,
+      "name": "Sausage",
+      "animation": "069x_Sausage.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head"
+      ]
+    },
+    {
+      "gameId": 671,
+      "name": "Candy Heart",
+      "animation": "671_candyheart.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 672,
+      "name": "Pound Of Flesh",
+      "animation": "672_poundofflesh.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 674,
+      "name": "Spirit Shackles",
+      "animation": "674_spiritshackles2.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 675,
+      "name": "Cracked Orb",
+      "animation": "675_crackedorb.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 677,
+      "name": "Astral Projection",
+      "animation": "677_astralprojection.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body",
+        "top0"
+      ],
+      "skinColor": 0
+    },
+    {
+      "gameId": 678,
+      "name": "CSection",
+      "animation": "678_csection.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 680,
+      "name": "Montezumas Revenge",
+      "animation": "680_montezuma.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 686,
+      "name": "Soul Locket",
+      "animation": "686_soullocket.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body0"
+      ]
+    },
+    {
+      "gameId": 688,
+      "name": "Inner Child",
+      "animation": "045x_Pluto.anm2",
+      "kind": "mixed",
+      "parts": [
+        "head",
+        "body"
+      ],
+      "layers": [
+        "head",
+        "body"
+      ]
+    },
+    {
+      "gameId": 690,
+      "name": "Belly Jelly",
+      "animation": "129_Bucket of Lard.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    },
+    {
+      "gameId": 699,
+      "name": "Azazels Rage",
+      "animation": "699_azazelsrage.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head3"
+      ]
+    },
+    {
+      "gameId": 708,
+      "name": "Stapler",
+      "animation": "708_stapler.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 730,
+      "name": "Glass Eye",
+      "animation": "730_glasseye.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head2"
+      ]
+    },
+    {
+      "gameId": 731,
+      "name": "Stye",
+      "animation": "731_stye.anm2",
+      "kind": "head",
+      "parts": [
+        "head"
+      ],
+      "layers": [
+        "head1"
+      ]
+    },
+    {
+      "gameId": 732,
+      "name": "Moms Ring",
+      "animation": "732_momsring.anm2",
+      "kind": "body",
+      "parts": [
+        "body"
+      ],
+      "layers": [
+        "body"
+      ]
+    }
+  ],
+  "unsupported": [
+    {
+      "gameId": 630,
+      "name": null,
+      "animation": "077x_Lucky7.anm2",
+      "reason": "missing-item-definition"
+    },
+    {
+      "gameId": 662,
+      "name": null,
+      "animation": "662_Pacifist.anm2",
+      "reason": "missing-item-definition"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>以撒暖暖</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="desktop-pet" aria-label="以撒暖暖桌面角色">
+      <canvas id="character-canvas" width="80" height="88" aria-label="Isaac"></canvas>
+      <div class="drag-handle" title="拖动角色" aria-hidden="true"></div>
+      <nav class="character-switcher" aria-label="切换角色">
+        <button class="character-switch-button" type="button" data-character-step="-1" aria-label="上一个角色" title="上一个角色"></button>
+        <button class="character-switch-button" type="button" data-character-step="1" aria-label="下一个角色" title="下一个角色"></button>
+      </nav>
+      <button class="hair-menu-toggle" type="button" aria-label="打开发型菜单" title="发型菜单" aria-expanded="false" hidden>
+        <span class="hair-menu-icon" aria-hidden="true"></span>
+      </button>
+      <button class="item-menu-toggle" type="button" aria-label="打开道具菜单" title="道具菜单" aria-expanded="false">
+        <img src="isaac-asset://local/gfx/collectibles/collectibles_534_schoolbag.png" alt="" draggable="false">
+      </button>
+      <button class="character-variant-toggle" type="button" aria-label="切换为 Dark Judas" title="切换为 Dark Judas" aria-pressed="false" hidden>
+        <img src="isaac-asset://local/gfx/ui/stage/playerportrait_darkjudas.png" alt="" draggable="false">
+      </button>
+      <nav class="appearance-slots" aria-label="保存外观配置">
+        <button class="appearance-slot-button" type="button" data-slot="1" aria-label="保存到配置槽位 1" title="保存到配置槽位 1">1</button>
+        <button class="appearance-slot-button" type="button" data-slot="2" aria-label="保存到配置槽位 2" title="保存到配置槽位 2">2</button>
+        <button class="appearance-slot-button" type="button" data-slot="3" aria-label="保存到配置槽位 3" title="保存到配置槽位 3">3</button>
+      </nav>
+      <section class="hair-panel" aria-label="Eden 发型菜单" hidden>
+        <div class="hair-results" aria-label="发型列表"></div>
+      </section>
+      <section class="item-panel" aria-label="道具菜单" hidden>
+        <header class="item-toolbar">
+          <input class="item-search" type="search" aria-label="按道具 ID 或名称搜索" placeholder="ID / NAME" autocomplete="off" spellcheck="false">
+          <button class="item-filter-button item-category-filter" type="button" aria-label="部件分类"></button>
+          <button class="item-filter-button item-equipment-filter" type="button" aria-label="装备筛选"></button>
+        </header>
+        <div class="item-results" aria-label="道具搜索结果"></div>
+        <p class="item-empty" hidden>没有匹配的道具</p>
+      </section>
+    </main>
+    <script src="renderer.js"></script>
+  </body>
+</html>
