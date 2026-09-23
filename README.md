@@ -4,7 +4,17 @@
   <img src="build/app-icon.png" width="128" alt="Isaac 获得 Venus 外观的应用图标">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Windows-blue" alt="Windows">
+  <img src="https://img.shields.io/badge/Built%20with-Electron-47848F" alt="Electron">
+  <img src="https://img.shields.io/badge/Code%20License-MIT-green" alt="Code License: MIT">
+  <img src="https://img.shields.io/badge/Release-v1.0.0-brightgreen" alt="Release: v1.0.0">
+</p>
+
 一个可换角色、叠加道具外观并常驻桌面的《以撒的结合》二创小摆件。
+
+> [!IMPORTANT]
+> 本项目是非官方、非商业的同人项目，与《以撒的结合》的开发者、发行商及相关权利人不存在隶属、授权、赞助或认可关系。[MIT License](LICENSE) 仅适用于项目作者原创的程序源代码，不适用于游戏相关名称、美术、动画定义及其衍生内容。详细说明见 [THIRD_PARTY_ASSETS.md](THIRD_PARTY_ASSETS.md)。
 
 **快速上手** · [功能与技术细节](docs/DETAILS.md)
 
@@ -69,4 +79,8 @@ dist/Isaac-Dress-Up-1.0.0-win.zip
 
 完整的功能说明、素材结构、外观组合规则、开发检查和后续计划见 [功能与技术细节](docs/DETAILS.md)。
 
-项目代码与素材许可需要分别处理。公开分发前，请确认原作素材及第三方 Mod 素材的授权范围。
+## 开源许可与免责声明
+
+项目作者原创的程序源代码采用 [MIT License](LICENSE) 开源。游戏相关素材及其衍生内容不属于 MIT 授权范围，具体文件范围和来源见 [THIRD_PARTY_ASSETS.md](THIRD_PARTY_ASSETS.md)。
+
+《以撒的结合》及其相关名称、美术素材、动画和游戏内容的权利归各自权利人所有。如果相关权利人认为仓库中的内容使用不当，可以联系仓库维护者；维护者将配合移除或替换相关素材。

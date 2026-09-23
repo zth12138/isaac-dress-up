@@ -44,6 +44,14 @@
       {
         "from": "docs",
         "to": "docs"
+      },
+      {
+        "from": "LICENSE",
+        "to": "LICENSE"
+      },
+      {
+        "from": "THIRD_PARTY_ASSETS.md",
+        "to": "THIRD_PARTY_ASSETS.md"
       }
     ],
     "win": {
